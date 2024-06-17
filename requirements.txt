@@ -1,6 +1,6 @@
 streamlit
 transformers==4.18.0
-torch
+torch==2.0.1
 pdf2image==1.16.0
-Pillow==9.1.1
-tokenizers==0.10.3
+Pillow==9.3.0
+tokenizers>=0.11.1,<0.13
