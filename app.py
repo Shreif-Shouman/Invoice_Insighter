@@ -4,6 +4,7 @@ from pdf2image import convert_from_path
 import tempfile
 import os
 from PIL import Image
+import pytesseract
 
 # Set the title for the app
 st.title("layoutlm-invoices App")
