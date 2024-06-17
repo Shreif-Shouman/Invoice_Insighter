@@ -6,7 +6,7 @@ import os
 from PIL import Image
 
 # Set the title for the app
-st.title("Document Question Answering App")
+st.title("layoutlm-invoices App")
 
 # Initialize the question-answering pipeline
 qa_pipeline = pipeline("document-question-answering", model="impira/layoutlm-invoices")
