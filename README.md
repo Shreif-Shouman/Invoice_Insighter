@@ -1,36 +1,36 @@
-🚀 layoutlm-invoices App
-This repository contains layoutlm-invoices, a Streamlit-based application designed to extract information from invoices using the LayoutLM model from Hugging Face. The app allows users to upload PDF or image files, ask questions about the document, and receive contextually accurate answers.
+📄 layoutlm-invoices App
+Welcome to the layoutlm-invoices App! This application leverages the power of Streamlit, Hugging Face Transformers, and Tesseract OCR to answer questions about your documents, specifically invoices. 🚀
 
-✨ Features
-📄 PDF and Image Upload: Supports uploading PDF and image files.
-🖼️ PDF to Image Conversion: Converts PDF files to images for processing.
-🧠 Document Question Answering: Utilizes Hugging Face's LayoutLM model for extracting information from documents.
-🔍 Interactive Q&A: Users can ask questions about the uploaded document and get responses.
-🛠️ Installation
+🌟 Features
+Upload PDF or Image files: Upload your invoices in PDF, PNG, JPG, or JPEG formats.
+Convert PDFs to Images: Automatically convert PDF documents into images for processing.
+Question Answering: Use state-of-the-art AI to answer questions about your uploaded documents.
+📦 Installation
+To get started with the layoutlm-invoices App, follow these steps:
+
 Clone the repository:
 
 bash
 Copy code
 git clone https://github.com/yourusername/layoutlm-invoices.git
 cd layoutlm-invoices
-Install the required dependencies:
+Install the required packages:
 
 bash
 Copy code
 pip install -r requirements.txt
-Run the Streamlit application:
+Run the application:
 
 bash
 Copy code
 streamlit run lay.py
-🚀 Usage
-Upload Files: Use the sidebar to upload your PDF or image files.
-Ask Questions: Type your question in the input box and get responses about the document.
+🛠️ Usage
+Upload your document: Use the sidebar to upload your PDF or image file.
+View the uploaded document: The document will be displayed in the main window.
+Ask questions: Enter your question in the text input box and press Enter. The app will process your question and display the answer.
+🧠 Technologies Used
+Streamlit: For building the interactive web application.
+Hugging Face Transformers: For the document question-answering model.
+pdf2image: For converting PDF documents to images.
+Pytesseract: For optical character recognition (OCR) to extract text from images.
 📂 File Structure
-lay.py: Main application file containing the Streamlit app.
-🧩 Functions
-pdf_to_images(pdf_file)
-Converts a PDF file to a list of image paths.
-
-find_answer_in_response(response)
-Extracts the answer from the response of the question-answering pipeline.
