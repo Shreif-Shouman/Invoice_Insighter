@@ -1,4 +1,4 @@
-📄 layoutlm-invoices App
+# 📄 layoutlm-invoices App
 Welcome to the layoutlm-invoices App! This application leverages the power of Streamlit, Hugging Face Transformers, and Tesseract OCR to answer questions about your documents, specifically invoices. 🚀
 
 🌟 Features
