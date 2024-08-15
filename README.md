@@ -1,4 +1,4 @@
-# 📄 layoutlm-invoices App
+# 📄 Invoice Insighter App
 
 Welcome to the **layoutlm-invoices App**! This application leverages the power of [Streamlit](https://streamlit.io/), [layoutlm-invoices Model](https://huggingface.co/impira/layoutlm-invoices), [Hugging Face Transformers](https://huggingface.co/transformers/), and [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) to answer questions about your documents, specifically invoices. 🚀
 
